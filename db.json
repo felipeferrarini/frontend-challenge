@@ -1,0 +1,81 @@
+{
+  "places": [
+    {
+      "country": "Anguila",
+      "place": "asdasd",
+      "meta": "35/4534",
+      "svg": "https://restcountries.eu/data/aia.svg",
+      "id": 2
+    },
+    {
+      "country": "Antárctida",
+      "place": "teste",
+      "meta": "24/5416",
+      "svg": "https://restcountries.eu/data/ata.svg",
+      "id": 3
+    },
+    {
+      "country": "Arménia",
+      "place": "564614",
+      "meta": "53/4651",
+      "svg": "https://restcountries.eu/data/arm.svg",
+      "id": 6
+    },
+    {
+      "country": "Anguila",
+      "place": "asdasdasd",
+      "meta": "34/5655",
+      "svg": "https://restcountries.eu/data/aia.svg",
+      "id": 8
+    },
+    {
+      "country": "Anguila",
+      "place": "fghjgyjyhj",
+      "meta": "56/7567",
+      "svg": "https://restcountries.eu/data/aia.svg",
+      "id": 9
+    },
+    {
+      "country": "Antígua e Barbuda",
+      "place": "regfhjuk",
+      "meta": "45/4776",
+      "svg": "https://restcountries.eu/data/atg.svg",
+      "id": 11
+    },
+    {
+      "country": "Antárctida",
+      "place": "dsfbghnkhyj",
+      "meta": "23/5457",
+      "svg": "https://restcountries.eu/data/ata.svg",
+      "id": 13
+    },
+    {
+      "country": "Aruba",
+      "place": "sdfdsfgftrhy",
+      "meta": "45/6456",
+      "svg": "https://restcountries.eu/data/abw.svg",
+      "id": 14
+    },
+    {
+      "country": "Arménia",
+      "place": "asdasd",
+      "meta": "56/7688",
+      "svg": "https://restcountries.eu/data/arm.svg",
+      "id": 15
+    },
+    {
+      "country": "Andorra",
+      "place": "asdasd",
+      "meta": "56/4564",
+      "svg": "https://restcountries.eu/data/and.svg",
+      "id": 16
+    },
+    {
+      "country": "Andorra",
+      "place": "asdasd",
+      "meta": "65/4564",
+      "svg": "https://restcountries.eu/data/and.svg",
+      "id": 17
+    }
+  ]
+}
