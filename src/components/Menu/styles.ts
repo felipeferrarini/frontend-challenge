@@ -9,7 +9,9 @@ export const Container = styled.div`
   align-items: center;
   color: #fff;
 
-  @media all and (max-width: 1024px) {
+  @media all and (max-width: 425px) {
+    height: 100%;
+    padding: 10px 0;
   }
 
   #options {
@@ -19,11 +21,15 @@ export const Container = styled.div`
     align-items: flex-end;
 
     @media all and (max-width: 1024px) {
-      /* flex-direction: column;
-      width: 100%;
-      align-items: flex-start; */
       display: grid;
       grid-template-columns: 50% 50%;
+    }
+
+    @media all and (max-width: 425px) {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      align-items: center;
     }
 
     div {
@@ -31,6 +37,10 @@ export const Container = styled.div`
       flex-direction: column;
       align-items: flex-start;
       margin: 0 10px;
+
+      @media all and (max-width: 425px) {
+        width: 100%;
+      }
 
       select,
       input {
@@ -41,6 +51,9 @@ export const Container = styled.div`
         transition: all 0.2s;
         padding-left: 10px;
         font: 400 16px Roboto, sans-serif;
+        -webkit-box-shadow: 0px 1px 5px 1px rgba(50, 50, 50, 0.3);
+        -moz-box-shadow: 0px 1px 5px 1px rgba(50, 50, 50, 0.3);
+        box-shadow: 0px 1px 5px 1px rgba(50, 50, 50, 0.3);
 
         :focus,
         :hover {
@@ -50,23 +63,25 @@ export const Container = styled.div`
 
       #country {
         width: 20vw;
-
-        @media all and (max-width: 1024px) {
-          width: 100%;
-        }
       }
 
       #place {
         width: 25vw;
-        @media all and (max-width: 1024px) {
-          width: 100%;
-        }
       }
 
       #meta {
         width: 10vw;
+      }
+
+      #meta,
+      #place,
+      #country {
         @media all and (max-width: 1024px) {
           width: 100%;
+        }
+
+        @media all and (max-width: 425px) {
+          margin-bottom: 5px;
         }
       }
 
@@ -80,16 +95,25 @@ export const Container = styled.div`
       cursor: pointer;
       height: 48px;
       width: 10vw;
-      margin: 0 10px;
       background: var(--verde2);
       color: #fff;
       border-radius: 7px;
       transition: all 0.2s;
       font: 400 16px Roboto, sans-serif;
       border: 2px solid transparent;
+      -webkit-box-shadow: 0px 1px 5px 1px rgba(50, 50, 50, 0.3);
+      -moz-box-shadow: 0px 1px 5px 1px rgba(50, 50, 50, 0.3);
+      box-shadow: 0px 1px 5px 1px rgba(50, 50, 50, 0.3);
 
       @media all and (max-width: 1024px) {
-        width: 90%;
+        width: calc(100% - 20px);
+        margin-left: 10px;
+      }
+
+      @media all and (max-width: 425px) {
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 0;
       }
 
       :hover {

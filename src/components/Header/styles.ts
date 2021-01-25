@@ -10,4 +10,15 @@ export const Container = styled.div`
   box-shadow: 0px 0px 5px 5px rgba(50, 50, 50, 0.5);
   z-index: 100;
   position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media all and (max-width: 425px) {
+    padding-left: 10px;
+
+    img {
+      height: 80%;
+    }
+  }
 `;

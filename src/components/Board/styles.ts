@@ -7,7 +7,6 @@ export const Container = styled.div`
   justify-content: center;
   overflow: hidden auto;
   padding: 50px;
-  padding-left: auto;
   position: relative;
 
   @media all and (max-width: 1600px) {
@@ -26,7 +25,8 @@ export const Container = styled.div`
     grid-template-columns: auto auto;
   }
 
-  @media all and (max-width: 570px) {
+  @media all and (max-width: 425px) {
     grid-template-columns: auto;
+    padding: 20px 0;
   }
 `;
